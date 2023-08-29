@@ -34,7 +34,6 @@
     "prettier": "^3.0.0",
     "vite": "^4.4.6",
     "vitest": "^0.33.0"
-  },
-  "postinstall": "npm run build",
-  "start": "node server.js"
+  }
+
 }
