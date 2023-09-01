@@ -59,7 +59,7 @@ const showIngredient = async (idDrink, index) => {
 
 let currentPage = ref(1); // Track the current page
 let totalCocktailCount = ref(0);
-const itemsPerPage = 6;
+const itemsPerPage = 10;
 
 const fetchCocktailsForPage = async (page) => {
   try {

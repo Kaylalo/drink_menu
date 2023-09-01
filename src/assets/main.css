@@ -13,7 +13,7 @@
 }
 
 .content {
-  margin: 0 320px;
+  /*margin: 0 320px;*/
   background-color: #f8f8f8;
 }
 
@@ -33,7 +33,7 @@
 .image-grid {
  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
- /*grid-template-columns: auto auto auto;; !* Creates three columns with equal width *!*/
+ /*grid-template-columns: auto auto auto; !* Creates three columns with equal width *!*/
   padding: 10px;
 }
 
@@ -63,8 +63,10 @@ p{
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 350px) {
+  background-color: #29e829;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 650px) {
+  background-color: deepskyblue;
 
 }
